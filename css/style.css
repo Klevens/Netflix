@@ -256,7 +256,6 @@ div.login span:hover{
 
 } 
 
-
 .contPreguntas{
 
     width: 700px;
@@ -274,7 +273,7 @@ div.login span:hover{
     
 }
 
-.pregunta, .respuesta{
+.pregunta{
     background: #303030;
     padding: 10px;
     margin-bottom: 5px;
@@ -288,9 +287,23 @@ div.login span:hover{
 }
 
 
+.pregunta:hover .respuesta{
+
+    max-height: 400px;
+}
+
 /*PREGUNTAS*/
 
+/*RESPUESTA*/
 
+.respuesta hr{
+    border: solid 1px #949393;
+}
 
+.respuesta{
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 0.6s;
+}
 
-
+/*RESPUESTA*/
