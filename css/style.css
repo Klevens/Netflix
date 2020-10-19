@@ -20,7 +20,8 @@ p{
 
 
 section{
-    border: solid red;
+    border-bottom: solid gray 4px;
+    
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -28,7 +29,7 @@ section{
 section div.contenido{
 
     width: 1100px;
-    border: solid blue;
+    
     margin: auto;
     display: flex;
     justify-content: center;
@@ -37,12 +38,6 @@ section div.contenido{
 
 }
 
-section div.contenido div{
-
-    border: solid yellow;
-    
-
-}
 
 .restaurar{
     clear: both;
@@ -110,7 +105,7 @@ align-items: center;
 
 }
 
-.presentacion input{
+.presentacion input, .contPreguntas input{
 
     height: 60px !important;
     width: 500px;
@@ -122,7 +117,7 @@ align-items: center;
     padding-left: 11px;
 }
 
-.presentacion span{
+.presentacion span, .contPreguntas span{
 
     background-color: #e50914;
     padding: 19px;
@@ -307,3 +302,29 @@ div.login span:hover{
 }
 
 /*RESPUESTA*/
+
+/* PIE */
+
+.info{
+
+    width: 1100px;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+
+}
+
+.pie p{
+	padding:7px
+
+}
+
+.pie .espacio{
+    width: 100px;
+    
+}
+
+
+
+/* PIE */
+
