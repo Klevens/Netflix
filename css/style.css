@@ -58,7 +58,7 @@ html, body, .cover{
 
 .cover{
     background: url(../img/fondonetflix.jpg);
-    filter: opacity(75%);
+    filter: opacity(45%);
 }
 
 body{
@@ -205,7 +205,7 @@ div.login span:hover{
 
 .gif{
 
-    width: 50px;
+    width: 80px;
     text-align: center;
 
 }
@@ -244,3 +244,53 @@ div.login span:hover{
     background: black;
     transform: translate(5px, -180px);
 }
+/*Descarga*/
+
+
+/*PREGUNTAS*/
+
+.preguntas h2{
+
+    font-weight: bold;
+    font-size: 35px;
+
+} 
+
+
+.contPreguntas{
+
+    width: 700px;
+    margin: auto;
+    text-align: center;
+
+}
+.contPreguntas div{
+    text-align: left;
+    
+}
+
+.contPreguntas p{
+    font-size: 20px;
+    
+}
+
+.pregunta, .respuesta{
+    background: #303030;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+.pregunta p{
+    padding: 10px;
+    padding-left: 20px;
+}
+
+
+/*PREGUNTAS*/
+
+
+
+
+
